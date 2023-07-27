@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build"
   },
-  "repository": "git@github.com:tylingsoft/markdown-it-latex.git",
+  "repository": "git@github.com:yasin7044/markdown-it-latex.git",
   "author": "Yasin Quraishy <yasin.quraishy@gmail.com>",
   "license": "MIT",
   "devDependencies": {

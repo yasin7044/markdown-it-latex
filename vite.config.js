@@ -4,7 +4,10 @@ export default defineConfig({
   build: {
     lib: {
       entry: "src/index.js",
-      name: "markdown-it-latex-vite", // Replace with your package name
+      name: "markdown-it-latex-vite",
+      fileName: (format) =>
+        format === "es" ? `index.js` : `index.${format}.js`,
+      // Replace with your package name
       formats: ["umd", "es"],
     },
     sourcemap: true,
